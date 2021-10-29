@@ -2,7 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DiplomMaui.MainPage"
              xmlns:vm="clr-namespace:ViewModels;assembly=ViewModels"
-             BackgroundColor="{DynamicResource SecondaryColor}">
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             Title="MAUI MVVM base app">
     <ContentPage.BindingContext>
         <vm:MainPageViewModel/>
     </ContentPage.BindingContext>
